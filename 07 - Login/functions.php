@@ -1,6 +1,6 @@
 <?php
 // koneksi ke database
-$conn = mysqli_connect("localhost", "root", "", "db_belajar_phpdasar");
+$conn = mysqli_connect("localhost", "root", "root", "learn_php_basic");
 
 
 

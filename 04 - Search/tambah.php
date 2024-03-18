@@ -2,7 +2,7 @@
 require "functions.php";
 
 // koneksi ke DBMS
-$conn = mysqli_connect("localhost", "root", "", "phpdasar");
+$conn = mysqli_connect("localhost", "root", "root", "learn_php_basic");
 
 
 // cek apakah tombol submit sudah ditekan atau belum

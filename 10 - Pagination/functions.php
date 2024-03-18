@@ -1,6 +1,6 @@
 <?php
 // koneksi ke database
-$conn = mysqli_connect("localhost", "root", "root", "db_belajar_php_basic");
+$conn = mysqli_connect("localhost", "root", "root", "learn_php_basic");
 
 
 // Function Query Database ke web
@@ -183,9 +183,9 @@ function register($data)
     $password = password_hash($password, PASSWORD_DEFAULT);
 
     // tambahkan user baru ke database
-    mysqli_query($conn, "INSERT INTO user 
+    mysqli_query($conn, "INSERT INTO user (username, password)
                             VALUES
-                        ('', '$username', '$password')
+                        ('$username', '$password')
                 ");
     return mysqli_affected_rows($conn);
 }

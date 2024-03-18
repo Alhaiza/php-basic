@@ -1,7 +1,6 @@
 <?php
 // koneksi ke database
-$conn = mysqli_connect("localhost", "root", "root", "db_belajar_php_basic");
-
+$conn = mysqli_connect("localhost", "root", "root", "learn_php_basic");
 
 // Function Query Database ke web
 function query($query)
